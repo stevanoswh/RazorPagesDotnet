@@ -23,6 +23,12 @@
 			<tr>
 				<td>@obj.Name</td>
 				<td>@obj.DisplayOrder</td>
+				<td>
+					<a asp-controller="Category" asp-action="edit" asp-route-id="@obj.Id" class="btn btn-primary mx-2">Edit</a>
+				</td>
+				<td>
+					<a asp-controller="Category" asp-action="delete" asp-route-id="@obj.Id" class="btn btn-danger mx-2">Delete</a>
+				</td>
 			</tr>
 		}
 	</tbody>
