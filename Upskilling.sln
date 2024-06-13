@@ -3,7 +3,9 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.10.34928.147
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Upskilling", "Upskilling\Upskilling.csproj", "{674C1C4B-E601-4801-8A41-4879011A6953}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Upskilling", "Upskilling\Upskilling.csproj", "{674C1C4B-E601-4801-8A41-4879011A6953}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Upskilling_Razor", "Upskilling_Razor\Upskilling_Razor.csproj", "{36F90C1A-C1F2-47F5-9FBD-D55C124F29CE}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -15,6 +17,10 @@ Global
 		{674C1C4B-E601-4801-8A41-4879011A6953}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{674C1C4B-E601-4801-8A41-4879011A6953}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{674C1C4B-E601-4801-8A41-4879011A6953}.Release|Any CPU.Build.0 = Release|Any CPU
+		{36F90C1A-C1F2-47F5-9FBD-D55C124F29CE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{36F90C1A-C1F2-47F5-9FBD-D55C124F29CE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{36F90C1A-C1F2-47F5-9FBD-D55C124F29CE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{36F90C1A-C1F2-47F5-9FBD-D55C124F29CE}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
