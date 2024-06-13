@@ -1,0 +1,25 @@
+﻿@page
+@model Upskilling_Razor.Pages.Categories.DeleteModel
+<form method="post">
+	<input asp-for="Category.Id" hidden />
+	<div class="row pb-2">
+		<h2>Delete Category</h2>
+		<hr />
+	</div>
+	<div class="mb-3">
+		<label asp-for="Category.Name"></label>
+		<input asp-for="Category.Name" type="text" class="form-control" disabled />
+	</div>
+	<div class="mb-3">
+		<label asp-for="Category.DisplayOrder"></label>
+		<input asp-for="Category.DisplayOrder" type="text" class="form-control" disabled />
+	</div>
+	<div class="row">
+		<div class="col-6">
+			<button type="submit" class="btn btn-danger form-control">Delete</button>
+		</div>
+		<div class="col-6">
+			<a asp-page="./index" class="btn btn-secondary form-control">Back to List</a>
+		</div>
+	</div>
+</form>
