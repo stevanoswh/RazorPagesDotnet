@@ -15,4 +15,10 @@
     </PackageReference>
   </ItemGroup>
 
+  <ItemGroup>
+    <ProjectReference Include="..\Upskilling.Model\Upskilling.Models.csproj" />
+    <ProjectReference Include="..\Upskilling.Utils\Upskilling.Utils.csproj" />
+	  <ProjectReference Include="..\Upskilling.DataAccess\Upskilling.DataAccess.csproj" />
+  </ItemGroup>
+
 </Project>

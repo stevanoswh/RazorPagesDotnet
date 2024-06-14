@@ -4,7 +4,7 @@
 
 #pragma warning disable CA1814 // Prefer jagged arrays over multidimensional
 
-namespace Upskilling.Migrations
+namespace Upskilling.DataAccess.Migrations
 {
     /// <inheritdoc />
     public partial class AddCateoryTaleTDb : Migration
